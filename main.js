@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 //Currency converter API Link:
 let apiLink = "https://v6.exchangerate-api.com/v6/1b3255cd918fdaf8db1f5136/latest/PKR";
@@ -48,4 +49,4 @@ let cnvRateData = async (data) => {
 let conversionRate = await cnvRateData(cnvRate);
 // console.log(cnversionRate);
 let convertedRate = userMoney.rupee * conversionRate;
-console.log(` ${firstCuntry.name}  ${userMoney.rupee}${secondCuntry.name}${convertedRate}`);
+console.log(`Your ${firstCuntry.name}  ${userMoney.rupee}in ${secondCuntry.name} is ${convertedRate}`);

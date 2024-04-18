@@ -1,15 +1,18 @@
 {
   "name": "pz04_cli_currency_converter",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.4",
+  "description": "Currency converter",
   "main": "index.js",
   "type": "module",
   "bin": "index.js",
+  "publishConfig":{
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Peer Saab",
+  "author": "PeerSaab",
   "license": "ISC",
   "dependencies": {
     "-": "^0.0.1",
