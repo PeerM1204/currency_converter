@@ -1,13 +1,11 @@
 {
-  "name": "pz04_cli_currency_converter",
-  "version": "1.0.4",
-  "description": "Currency converter",
-  "main": "index.js",
+  "name": "peermuhammad04_currency_converter",
+  "version": "2.0.4",
+  "description": "currency converter",
+  "main": "main.js",
   "type": "module",
-  "bin": "index.js",
-  "publishConfig":{
-    "access": "public"
-  },
+  "bin": "main.js",
+  "publishConfig": {"access": "public"},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

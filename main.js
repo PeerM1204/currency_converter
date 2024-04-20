@@ -50,3 +50,39 @@ let conversionRate = await cnvRateData(cnvRate);
 // console.log(cnversionRate);
 let convertedRate = userMoney.rupee * conversionRate;
 console.log(`Your ${firstCuntry.name}  ${userMoney.rupee}in ${secondCuntry.name} is ${convertedRate}`);
+//list of currency exchange rate:
+// let exchangeRate:any = {
+//     "USD":1,
+//     "YEN":113,
+//     "CAD":1.69,
+//     "AUD":1.65,
+//     "PKR":280
+// }
+// //prom[pt the user:
+// let answer = await inquirer.prompt([
+//     {
+//        name:'currencyFrom',
+//        type:'list',
+//        message:"Select the Currency convert from:",
+//        choices:['USD','YEN','CAD','AUD','PKR']
+//     },
+//     //currency to:
+//     {
+//         name:'currencyTo',
+//         type:'list',
+//         message:'Select the currency convert into:',
+//         choices:['USD','YEN','CAD','AUD','PKR']
+//     },
+//     {
+//         name:'amount',
+//         message:'Enter thr amount to convert:',
+//         type:'input'
+//     }
+// ]);
+// let fromAmount = exchangeRate [answer.currencyFrom];
+// let toAmount= exchangeRate [answer.currencyTo];
+// let amount = answer.amount
+// //formula:
+// let baseAmount = amount / fromAmount;
+// let convertedAmount = baseAmount * toAmount;
+// console.log(convertedAmount.toFixed(2));
